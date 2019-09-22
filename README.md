@@ -1,9 +1,9 @@
 # vue-cli
 
 > A Vue.js project to practice communicating between components
-* Props - pass data from parent to child
+* Props - pass data from parent to child. When a value is passed to a prop attribute, it becomes a property on that component instance.
 * $emit - pass data from child to parent 
-* eventBus - pass data from sibling to sibling. eventBus.$emit() for sibling that is sending and created() for receiver sibling. 
+* eventBus - pass data from sibling to sibling. eventBus.$emit() for sibling that is sending and created() { eventBus.$on() } for receiver sibling. 
 
 
 ## Build Setup
