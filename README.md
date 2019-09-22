@@ -1,6 +1,10 @@
 # vue-cli
 
-> A Vue.js project
+> A Vue.js project to practice communicating between components
+* Props - pass data from parent to child
+* $emit - pass data from child to parent 
+* eventBus - pass data from siblin=> sibling. eventBus.$emit|() for sibling that is sending and created() for receiver sibling. 
+
 
 ## Build Setup
 
